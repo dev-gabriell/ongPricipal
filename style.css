@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Animação*/
+
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transition: all 0.3s;
+    transform: translateY(0%);
+}
+
+.animacao{
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 0.5s;
+    transform: translateY(-20%);
+}
+
+a{
+    text-decoration: none;
+}
+.close-menu{
+   display: none;
+}
+/*MENU*/
+.espaco-menu{
+    width: 100%;
+    height: 80px;
+    background: #c9c8c8;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d1d1d1;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff;
+    box-shadow: 0 0 10px #000;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.menu ul{
+    display: flex;
+    margin: 0 60px 0 10px;
+}
+.menu ul li{
+    display: flex;
+    margin: 10px 20px;
+    font-family: "Bebas Neue", sans-serif;
+    cursor: pointer;
+    font-weight: 100;
+    padding: 6px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.5s all;
+    text-align: center;
+}
+.menu ul li:hover{
+    background: rgb(119, 119, 119);
+}
+.menu a{
+    display: flex;
+    color: #000;
+}
+.menu ul li:hover a{
+    color: #cfcfcf;
+}
+.img-logo img{
+    width: 250px;
+    height: auto;
+}
+.click-one{
+    position: relative;
+    width: 130px;
+    height: 40px;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: rgb(19, 19, 19);
+    color: #fff;
+    overflow: hidden;
+}
+.click-one::before{
+    content: "";
+    position: absolute;
+    right: -30px;
+    width: 200px;
+    height: 20px;
+    background: linear-gradient(to left,#3de00b, #c2ffb3);
+    animation: animete 3s linear infinite;
+}
+.click-one::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(19, 19, 19);
+    inset: 3.6px;
+    border-radius: 16px;
+    transition: 0.5s all;
+}
+
+.click-one:hover::after{
+    background: #fff;
+}
+@keyframes animete {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.click-one a{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    z-index: 1;
+}
+.click-one:hover a{
+    color: #000;
+
+}
+/*SEÇÃO 1*/
+.sec1{
+    width: 100%;
+    height: auto;
+    background: #c7c7c7;
+    overflow-x: hidden;
+}
+/*IMAGEM DE FUNDO*/
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    min-height: 85%;
+}
+.img-fundo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/img-principal.png);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    transition: 1s ease-in-out;
+}
+
+.text-principal{
+    width: 70%;
+    height: auto;
+    color: #fff;
+}
+.text-principal h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 7px #000;
+    text-transform: uppercase;
+    text-align: center;
+    word-wrap: break-word;
+}
+.click-two{
+    width: 170px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 90px;
+    background-color: #d69813;
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    transition: 0.5s all;
+}
+.click-two:hover{
+    background-color: #583500;
+}
+.click-two a{
+    color: #fff;
+    padding: 10px 50px;
+}
+/*CARDS*/
+.title-card{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(92, 31, 56);
+    position: relative;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.card-content{
+    width: 100%;
+    height: auto;
+    margin-top: -80px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 180px;
+    background: linear-gradient(#a4eb7c, #2c4d16);
+    box-shadow: 4px 5px 5px #000;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.card a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-card p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+.img-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 100px;
+    border-radius: 10px;
+}
+.img-card img{
+    width: 60%;
+    height: auto;
+}
+
+.card h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 8px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+}
+.card2 img{
+    width: 85%;
+}
+.card3 img{
+    width: 100%;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+.card button{
+    margin: 7px 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border-radius: 14px;
+    border: 2px solid #fff;
+    font-size: 17px;
+    background-color: #d69813;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.card button:hover{
+    background-color: #553c06;
+}
+.card button a{
+    color: #fff;
+}
+
+
+/*SECTION 2*/
+.sec2{
+    width: 100%;
+    height: auto;
+    background: #c7c7c7;
+
+}
+.impacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.faixa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to left, #24551d, #4f9b45,#86a183);
+}
+.faixa1 p {
+    font-size: 200%;
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.numeros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 80%;
+}
+.faixa2{
+    width: 100%;
+    height: 25px;
+    background: linear-gradient(to left, #24551d, #4f9b45,#86a183);
+    box-shadow: 0 2px 7px #000;
+}
+
+/*NUMEROS*/
+.num1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 360px;
+    height: 190px;
+    margin: 10px;
+
+}
+.num1 span{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    text-shadow: 0 0 5px #000000ce;
+    font-size: 60px;
+    color: #ffa43d;
+}
+.num1 p {
+    font-size: 25px;
+    color: #000;
+    margin-top: 10px;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+}
+
+/*SEÇÃO 3*/
+.sec3{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    margin-bottom: 40px;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content2 h2{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+
+/*FOOTER*/
+.rodape{
+    display: flex;
+    justify-content: center;
+    height: 360px;
+    padding: 50px;
+    background: rgb(235, 235, 235);
+}
+.content3{
+    width: 80%;
+    height: 200px;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 0 3px #000;
+}
+.content3 h3, h4{
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px 0;
+}
+.contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tel strong{
+    font-weight: 500;
+}
+.email strong{
+    font-weight: 500;
+}
+.content3 p {
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;  
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+p span{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}

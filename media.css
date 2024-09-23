@@ -1,0 +1,98 @@
+@media (max-width:1057px){
+    .text-principal h1{
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    .espaco-menu{
+        display: none;
+    }
+    .card-content{
+        margin-top: 50px;
+    }
+    .content2 h2{
+        margin-bottom: 100px;
+    }
+    .carrossel-container{
+        margin-top: 10px;
+    }
+    .carrossel {
+        display: flex;
+        width: 95%;
+        transition: transform 0.5s ease;
+      }
+
+    /*FECHAR E ABRI MENU*/
+    .menu{
+        width: 300px;
+        height: 100vh;
+        box-shadow: 5px 0 7px #000;
+    }
+    .menu, .menu ul{
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .elementos-nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu button{
+        width: 150px;
+        height: 50px;
+        margin: 20px auto;
+    }
+    .menu ul li {
+        margin: 20px;
+    }
+    .menu ul li a{
+        margin: auto;
+    }
+
+    .menu{
+        display: none;
+    }
+    .img-logo{
+        width: 100px;
+        height: 100px;
+    }
+    .close-menu-label::after{
+        content: '☰';
+        position: fixed;
+        top: 20px;
+        right: 10px;
+        background: #459119;
+        color: #fff;
+        font-size: 20px;
+        line-height: 30px;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 50%;
+        border: solid #fff 2px;
+        z-index: 10;
+        box-shadow: 0 0 10px #000;
+    }
+    
+    .close-menu:checked~.menu{
+        display: block;
+    }
+    .close-menu:checked~ .close-menu-label::after{
+        content: '×';
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .card {
+        transform: scale(1.06);
+        transition: transform 0.3s ease; 
+    }
+    
+    .card:hover {
+        transform: none;
+    }
+}
