@@ -5,7 +5,6 @@
 <h3>Objetivo do Projeto</h3>
 <p>O objetivo principal deste trabalho foi reformular o site da Associação Prato Cheio para torná-lo mais acessível, atraente e funcional, melhorando a experiência do usuário (UX) e a interface do usuário (UI) por meio de técnicas modernas de design e boas práticas de desenvolvimento.</p>
 <h2>Tecnologias Utilizadas</h2>
-<<<<<<< HEAD
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
