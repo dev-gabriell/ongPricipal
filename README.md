@@ -8,4 +8,5 @@
 <ul>
   <li>HTML5 e CSS3: Para a estruturação e estilização do site.</li>
   <li>JavaScript: Para melhorar a interatividade e tornar a navegação mais fluida.</li>
+  <li>Java: Para conectar os formulários com o BANCO DE DADOS</li>
 </ul>
