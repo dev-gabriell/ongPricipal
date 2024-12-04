@@ -8,6 +8,6 @@
 <ul>
   <li>HTML5 e CSS3: Para a estruturação e estilização do site.</li>
   <li>JavaScript: Para melhorar a interatividade e tornar a navegação mais fluida.</li>
-  <li>Java: Para conectar os formulários com o BANCO DE DADOS</li>
+  <li>Java: Para conectar os formulários com o BANCO DE DADOS.</li>
 </ul>
 <h4><a href="https://dev-gabriell.github.io/ongPrincipal/" target="_blank">Clique aqui pra acessar a página</a></h4>
