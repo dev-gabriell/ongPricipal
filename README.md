@@ -5,6 +5,7 @@
 <h3>Objetivo do Projeto</h3>
 <p>O objetivo principal deste trabalho foi reformular o site da Associação Prato Cheio para torná-lo mais acessível, atraente e funcional, melhorando a experiência do usuário (UX) e a interface do usuário (UI) por meio de técnicas modernas de design e boas práticas de desenvolvimento.</p>
 <h2>Tecnologias Utilizadas</h2>
+<<<<<<< HEAD
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -20,3 +21,11 @@
 <img src="./img/Page2.png" alt="segunda página do site">
 <img src="./img/Page3.png" alt="segunda parte da pagina 2 do site">
 <img src="./img/Page4.png" alt="página de contato">
+=======
+<ul>
+  <li>HTML5 e CSS3: Para a estruturação e estilização do site.</li>
+  <li>JavaScript: Para melhorar a interatividade e tornar a navegação mais fluida.</li>
+  <li>Java: Para conectar os formulários com o BANCO DE DADOS.</li>
+</ul>
+<h4><a href="https://dev-gabriell.github.io/ongPrincipal/" target="_blank">Clique aqui pra acessar a página</a></h4>
+>>>>>>> fc64663b99e9dabaa3cf7aaa1d3647d6c6f54d00
