@@ -22,10 +22,3 @@
 <img src="./img/Page3.png" alt="segunda parte da pagina 2 do site">
 <img src="./img/Page4.png" alt="página de contato">
 =======
-<ul>
-  <li>HTML5 e CSS3: Para a estruturação e estilização do site.</li>
-  <li>JavaScript: Para melhorar a interatividade e tornar a navegação mais fluida.</li>
-  <li>Java: Para conectar os formulários com o BANCO DE DADOS.</li>
-</ul>
-<h4><a href="https://dev-gabriell.github.io/ongPrincipal/" target="_blank">Clique aqui pra acessar a página</a></h4>
->>>>>>> fc64663b99e9dabaa3cf7aaa1d3647d6c6f54d00
