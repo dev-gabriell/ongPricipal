@@ -21,4 +21,3 @@
 <img src="./img/Page2.png" alt="segunda página do site">
 <img src="./img/Page3.png" alt="segunda parte da pagina 2 do site">
 <img src="./img/Page4.png" alt="página de contato">
-=======
