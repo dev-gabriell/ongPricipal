@@ -10,4 +10,4 @@
   <li>JavaScript: Para melhorar a interatividade e tornar a navegação mais fluida.</li>
   <li>Java: Para conectar os formulários com o BANCO DE DADOS</li>
 </ul>
-<h2><a href="https://dev-gabriell.github.io/ongPrincipal/">Clique aqui pra acessar a página</a></h2>
+<h4><a href="https://dev-gabriell.github.io/ongPrincipal/">Clique aqui pra acessar a página</a></h4>
